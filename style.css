@@ -30,6 +30,16 @@ h2 {
   width: 70%;
 }
 
+.supports {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Helvetica";
+  color: aliceblue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+  list-style-type: square;
+}
 p {
   font-weight: bold;
   font-size: 18px;
@@ -51,18 +61,21 @@ p {
 
 .caption {
   opacity: 0.75;
-  display: block;
+  display: none;
   font-family: 'Playfair Display', serif;
   font-size: 14px;
   font-style: italic;
   line-height: 14px;
   margin-left: 20px;
-  padding: 10px;
-  position: relative;
+  padding: 1px;
+  position: absolute;
   top: 80%;
-  width: 60%;
+  left: 0;
+  bottom: 0;
+  width: 20%;
   background-color: white;
   color: black;
+  text-align: ;
 }
 
 .content {
@@ -70,10 +83,10 @@ p {
 }
 
 .image {
-  background-image: url("https://content.codecademy.com/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
+  background-image: url("assets/league.jpg");
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 500px;
 }
 
 .writer-img {
