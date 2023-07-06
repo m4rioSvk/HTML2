@@ -1,25 +1,22 @@
 body {
   /* Old browsers */
-  background: #141E30;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
-  margin: 0;
-  padding: 0;
+  background: #8d918f;
+  margin: 40px;
+  padding: 30px;
 }
 
-h1 {
+.content h1 {
   text-align: center;
-  font-family: "Georgia";
-  color: #FFF;
-  font-size: 2em;
-  padding-top: 100px;
+  font-family: Georgia, sans-serif;
+  color: aqua;
+  font-size: 50px;
+  padding-top: 10px;
   width: 100%;
+  margin-bottom: 100px;
 }
 
-h2 {
-  font-family: "Georgia";
+.content h2 {
+  font-family: serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   color: rgba(255, 255, 255, 0.5);
   font-weight: 100;
@@ -50,14 +47,6 @@ p {
   width: 100%;
 }
 
-.byline {
-  font-family: Helvetica;
-  color: rgba(255, 255, 255, 0.5);
-  float: left;
-  font-size: 14px;
-  padding-left: 10px;
-  text-transform: uppercase;
-}
 
 .caption {
   opacity: 0.75;
@@ -82,11 +71,13 @@ p {
   padding: 40px;
 }
 
-.image {
-  background-image: url("assets/league.jpg");
-  background-size: cover;
+.image-container {
+  background-image: url("assets/ethereum.jpg");
+  background-size: 1000px;
   background-position: center;
   height: 500px;
+  width: 100%;
+  display: flex;
 }
 
 .writer-img {
@@ -95,4 +86,32 @@ p {
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   float: left;
   width: 50px;
+}
+
+.pokracko h1 {
+  font-family: Georgia;
+  text-align: center;
+  padding: 20px, 20px;
+  border: 40px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-size: 50px;
+  color: aqua;
+}
+
+.consensus {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Helvetica";
+  color: rgb(212, 219, 226);
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+  list-style-type: circle;
+}
+
+.pokracko p {
+  font-family: Georgia;
+  text-align: center;
+  margin-bottom: 40px;
 }
